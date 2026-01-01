@@ -27,6 +27,9 @@ uname -a
 
 echo "===== FILE & DIRECTORY COMMANDS ====="
 
+#Change directory to test_dir
+cd test_dir
+
 # List all files including hidden
 ls -la
 
@@ -62,4 +65,6 @@ ps aux | head -10
 
 
 top -b -n 1 | head -10
+
+
 
