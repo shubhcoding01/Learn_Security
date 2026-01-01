@@ -36,8 +36,19 @@ ls -la
 # Create a directory
 mkdir test_dir
 
+# Remove a directory
+rmdir test_dir
+rmdir -rf test_dir
+
+
 # Create a file
 touch test_file.txt
+
+# Remove a file
+rm test_file.txt
+
+#To See contents of a file
+cat test_file.txt
 
 # Move file
 mv test_file.txt test_dir/
@@ -69,5 +80,7 @@ top -b -n 1 | head -10
 # Move to Root User
 sudo su
 
+#Show everything everyfile and directory
+tree
 
 clear
