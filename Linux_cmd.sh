@@ -66,5 +66,8 @@ ps aux | head -10
 
 top -b -n 1 | head -10
 
+# Move to Root User
+sudo su
 
 
+clear
