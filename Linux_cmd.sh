@@ -61,3 +61,5 @@ echo "===== PROCESS MANAGEMENT ====="
 ps aux | head -10
 
 
+top -b -n 1 | head -10
+
