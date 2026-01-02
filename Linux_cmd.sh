@@ -92,4 +92,7 @@ head -10 test_file.txt
 # Tail command to display last 10 lines of a file
 tail -10 test_file.txt
 
+# Wcommand to count lines, words, characters in a file
+wc test_file.txt
+
 clear
