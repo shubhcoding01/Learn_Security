@@ -95,4 +95,9 @@ tail -10 test_file.txt
 # Wcommand to count lines, words, characters in a file
 wc test_file.txt
 
+uname
+hostname
+uptime
+whoami
+
 clear
