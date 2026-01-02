@@ -83,4 +83,7 @@ sudo su
 #Show everything everyfile and directory
 tree
 
+# Manual for tree command
+man tree
+
 clear
