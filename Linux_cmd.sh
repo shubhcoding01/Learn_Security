@@ -99,5 +99,9 @@ uname
 hostname
 uptime
 whoami
+df
+history
+ps
+
 
 clear
