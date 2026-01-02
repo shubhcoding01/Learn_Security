@@ -86,4 +86,10 @@ tree
 # Manual for tree command
 man tree
 
+# Head command to display first 10 lines of a file
+head -10 test_file.txt
+
+# Tail command to display last 10 lines of a file
+tail -10 test_file.txt
+
 clear
