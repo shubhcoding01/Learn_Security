@@ -103,6 +103,7 @@ df
 history
 ps
 fdisk
+man fdisk
 
 
 clear
