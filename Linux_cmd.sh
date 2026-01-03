@@ -102,6 +102,7 @@ whoami
 df
 history
 ps
+fdisk
 
 
 clear
