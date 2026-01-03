@@ -105,6 +105,7 @@ ps
 fdisk
 man fdisk
 lsusb
+#grep used to add any text in a file
 grep
 
 
