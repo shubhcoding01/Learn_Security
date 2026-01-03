@@ -104,6 +104,7 @@ history
 ps
 fdisk
 man fdisk
+lsusb
 
 
 clear
