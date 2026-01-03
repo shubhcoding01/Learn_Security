@@ -105,6 +105,7 @@ ps
 fdisk
 man fdisk
 lsusb
+grep
 
 
 clear
