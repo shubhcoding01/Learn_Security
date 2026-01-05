@@ -108,5 +108,10 @@ lsusb
 #grep used to add any text in a file
 grep
 
+# Show help / usage 2025.4
+bpf-linker --help
+# Compile/link an eBPF program
+bpf-linker myprobe.o -o myprobe-linked.o
+
 
 clear
