@@ -18,3 +18,5 @@ dnsx -v
 dnsx -d domainname -w seclists/Discovery/DNS/subdomains-top1million-5000.txt -o alive_subdomain.txt
 #Here we are using seclists wordlist to find more subdomain
 sudo apt install seclists #install seclists first 
+
+httpx -l alive_subdomain.txt -o final_alive_subdomain.txt
