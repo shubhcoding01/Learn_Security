@@ -11,3 +11,6 @@ mousepad amass.txt
 grep -E '\b([a-zA-Z0-9_-]+\.)+domainname\.com\b amass.txt > amass_final.txt
 cat amass_final.txt
 grep -oE '\b([a-zA-Z0-9_-]+\.)+domainname\.com\b amass.txt > amass_final.txt #specially this one
+
+#To check alive subdomain Also find those domain which are hidden or not found in subfinder or amass or not listed in public
+dnsx -v
