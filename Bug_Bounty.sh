@@ -20,3 +20,5 @@ dnsx -d domainname -w seclists/Discovery/DNS/subdomains-top1million-5000.txt -o 
 sudo apt install seclists #install seclists first 
 
 httpx -l alive_subdomain.txt -o final_alive_subdomain.txt
+
+cat final_alive_subdomain.txt | httpx -o traget.txt -status-code -location -title -tech-detect
