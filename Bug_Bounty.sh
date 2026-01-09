@@ -29,3 +29,6 @@ nmap -p- -sV -oN port_scan.txt domainname
 nmap -p- -sV -oN port_scan.txt -oG port_scan.txt domainname
 nmap -p- -sV -oN port_scan.txt -oG port_scan.txt domainname
 sudo nmap -sS -sV domainname
+
+#Port scanning using naabu
+naabu -host domainname #its more faster than nmap
