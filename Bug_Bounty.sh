@@ -21,4 +21,11 @@ sudo apt install seclists #install seclists first
 
 httpx -l alive_subdomain.txt -o final_alive_subdomain.txt
 
+#find the status code(200 , 301, 302, 401, 403, 404, 500, 502, 503, 504), location, title, tech-detect of the subdomain
 cat final_alive_subdomain.txt | httpx -o traget.txt -status-code -location -title -tech-detect
+
+#Port Scanning
+nmap -p- -sV -oN port_scan.txt domainname
+nmap -p- -sV -oN port_scan.txt -oG port_scan.txt domainname
+nmap -p- -sV -oN port_scan.txt -oG port_scan.txt domainname
+sudo nmap -sS -sV domainname
