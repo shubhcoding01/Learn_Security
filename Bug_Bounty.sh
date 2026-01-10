@@ -32,3 +32,12 @@ sudo nmap -sS -sV domainname
 
 #Port scanning using naabu
 naabu -host domainname #its more faster than nmap
+
+#Dictionary brute force
+feroxbuster -u https://domainname.com -w wordlist.txt --threads 100 -C 404
+
+#Find Firewalls of website
+wafw00f domainname
+
+#Find Vulnerabilities of website
+nuclei -u https://domainname.com -t templates/ -o nuclei_output.txt
